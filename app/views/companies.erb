@@ -1,0 +1,10 @@
+<label for="company-names">Choose a company:</label>
+
+<form action="/reports">
+  <select name="selected-company" id="selected-company">
+    <% @@company_names.each do |company| %>
+      <option value="<%= company %>"><%= company %></option>
+    <% end %>
+  </select>
+  <input type="submit" value="Submit">
+</form>

@@ -6,3 +6,6 @@ gem "sinatra"
 gem "sinatra-contrib"
 gem "thin"
 gem "shotgun"
+gem 'colorize'
+gem 'nokogiri'
+gem 'tty-prompt'
